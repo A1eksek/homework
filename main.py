@@ -1,16 +1,16 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+a, b = int(input('Введите 1 число')), int(input('Введите 2 число'))
+print('Сумма чисел: ', a+b, '\n', 'Произведение чисел: ', a*b)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+zp = int(input("Введите вашу ЗП"))
+credit = int(input("Введите вашу сумму месячного платежа по кредиту в банке"))
+dolg = int(input("Введите вашу сумму задолженности за коммунальные услуги"))
+print("Денег осталось: ", zp-credit-dolg)
 
+d1 = int(input('Введите длину первой диагонали ромба'))
+d2 = int(input('Введите длину второй диагонали ромба'))
+print("Площадь ромба :", (d1*d2)/2)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+print("\t","To be",'\n', "\t","or not",'\n', "\t","to be",'\n')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print("“Life is what happens", "\n", "\t","when", "\n", "\t","\t","you’re busy making other plans”", "\n", "\t","\t","\t","\t","\t","\t","\t","\t","\t","John Lennon.")
